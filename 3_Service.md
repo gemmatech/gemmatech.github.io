@@ -36,7 +36,7 @@ permalink: /Service/
                   <td>Contact to Sales</td>
                 </tr>
               </tbody>
-            </table>
+                </table></table>
           </div>
     </div>
 </div>
@@ -71,7 +71,7 @@ permalink: /Service/
                   <td>Contact to Sales</td>
                 </tr>
               </tbody>
-            </table>
+                </table></table>
           </div>
     </div>
 </div>
