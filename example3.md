@@ -1,43 +1,39 @@
 ---
 layout: page
-title: Table
-permalink: /table/
+title: Service
+permalink: /Service/
 ---
 
 <h1 class="page-title">{{ page.title | escape }}</h1>
 
 <div class="section">
-    <h5>Borderless Table</h5> 
+    <h5>Gemmatech Service</h5> 
     <div class="row">
           <div class="col s12">
+            <table class="highlight">              
             <table>
               <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Item Name</th>
-                    <th>Item Price</th>
+                    <th>ITEM</th>
+                    <th>Work Hour</th>
+                    <th>Price</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Alvin</td>
-                  <td>Eclair</td>
-                  <td>$0.87</td>
+                  <td>Fixed</td>
+                  <td>Select Working Date</td>
+                  <td>Contact to Sales</td>
                 </tr>
                 <tr>
-                  <td>Alan</td>
-                  <td>Jellybean</td>
-                  <td>$3.76</td>
+                  <td>Flexible</td>
+                  <td>Define Working Hours</td>
+                  <td>Contact to Sales</td>
                 </tr>
                 <tr>
-                  <td>Jonathan</td>
-                  <td>Lollipop</td>
-                  <td>$7.00</td>
-                </tr>
-                <tr>
-                  <td>Shannon</td>
-                  <td>KitKat</td>
-                  <td>$9.99</td>
+                  <td>Combination</td>
+                  <td>Fixed + Flexible</td>
+                  <td>Contact to Sales</td>
                 </tr>
               </tbody>
             </table>
@@ -46,154 +42,33 @@ permalink: /table/
 </div>
 <div class="divider"></div>
 <div class="section">
-    <h5>Bordered Table</h5> 
+    <h5>Gemmatech Service</h5> 
     <div class="row">
           <div class="col s12">
-            <table class="bordered">
+            <table class="striped">              
+            <table>
               <thead>
                 <tr>
-                    <th>Name</th>
-                    <th>Item Name</th>
-                    <th>Item Price</th>
+                    <th>ITEM</th>
+                    <th>Work Hour</th>
+                    <th>Price</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>Alvin</td>
-                  <td>Eclair</td>
-                  <td>$0.87</td>
+                  <td>Fixed</td>
+                  <td>Select Working Date</td>
+                  <td>Contact to Sales</td>
                 </tr>
                 <tr>
-                  <td>Alan</td>
-                  <td>Jellybean</td>
-                  <td>$3.76</td>
+                  <td>Flexible</td>
+                  <td>Define Working Hours</td>
+                  <td>Contact to Sales</td>
                 </tr>
                 <tr>
-                  <td>Jonathan</td>
-                  <td>Lollipop</td>
-                  <td>$7.00</td>
-                </tr>
-                <tr>
-                  <td>Shannon</td>
-                  <td>KitKat</td>
-                  <td>$9.99</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-    </div>
-</div>
-<div class="divider"></div>
-<div class="section">
-    <h5>Striped Table</h5> 
-    <div class="row">
-          <div class="col s12">
-            <table class="striped">
-              <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Item Name</th>
-                    <th>Item Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Alvin</td>
-                  <td>Eclair</td>
-                  <td>$0.87</td>
-                </tr>
-                <tr>
-                  <td>Alan</td>
-                  <td>Jellybean</td>
-                  <td>$3.76</td>
-                </tr>
-                <tr>
-                  <td>Jonathan</td>
-                  <td>Lollipop</td>
-                  <td>$7.00</td>
-                </tr>
-                <tr>
-                  <td>Shannon</td>
-                  <td>KitKat</td>
-                  <td>$9.99</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-    </div>
-</div>
-<div class="divider"></div>
-<div class="section">
-    <h5>Highlight Table</h5> 
-    <div class="row">
-          <div class="col s12">
-            <table class="highlight">
-              <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Item Name</th>
-                    <th>Item Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Alvin</td>
-                  <td>Eclair</td>
-                  <td>$0.87</td>
-                </tr>
-                <tr>
-                  <td>Alan</td>
-                  <td>Jellybean</td>
-                  <td>$3.76</td>
-                </tr>
-                <tr>
-                  <td>Jonathan</td>
-                  <td>Lollipop</td>
-                  <td>$7.00</td>
-                </tr>
-                <tr>
-                  <td>Shannon</td>
-                  <td>KitKat</td>
-                  <td>$9.99</td>
-                </tr>
-              </tbody>
-            </table>
-          </div>
-    </div>
-</div>
-<div class="divider"></div>
-<div class="section">
-    <h5>Responsive Table</h5> 
-    <div class="row">
-          <div class="col s12">
-            <table class="responsive-table">
-              <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Item Name</th>
-                    <th>Item Price</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>Alvin</td>
-                  <td>Eclair</td>
-                  <td>$0.87</td>
-                </tr>
-                <tr>
-                  <td>Alan</td>
-                  <td>Jellybean</td>
-                  <td>$3.76</td>
-                </tr>
-                <tr>
-                  <td>Jonathan</td>
-                  <td>Lollipop</td>
-                  <td>$7.00</td>
-                </tr>
-                <tr>
-                  <td>Shannon</td>
-                  <td>KitKat</td>
-                  <td>$9.99</td>
+                  <td>Combination</td>
+                  <td>Fixed + Flexible</td>
+                  <td>Contact to Sales</td>
                 </tr>
               </tbody>
             </table>
