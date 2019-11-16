@@ -17,6 +17,8 @@
 
           <ul id="nav-mobile" class="side-nav">
             <li><a href="#">Home</a></li>
+            <li><a href="#">Product</a></li>              
+            <li><a href="#">Project</a></li>                
                             {% if page_paths %}
                 {% for path in page_paths %}
                     {% assign my_page = site.pages | where: "path", path | first %}
